@@ -1,0 +1,9 @@
+POST http://localhost:3000/features/newFeatures
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxMmU2NjZjLTkxOGYtMTFmMS05YjcxLTc0ZTZlMjA5ZDJhMCIsInVzZXJuYW1lIjoiamhvbiIsImlhdCI6MTc4NjEwNzU3NCwiZXhwIjoxNzg2MTkzOTc0fQ.cVs_ITShfJX5YI7aEVdUHdS-vuk-NZcDrfXM9qD3Qss
+Content-Type:application/json
+
+{
+    "title":"Login Feature",
+    "description":"Allows users to login.",
+    "priority":"High"
+}
