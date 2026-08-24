@@ -1,0 +1,15 @@
+POST http://localhost:3000/stories/create-story
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxMmU2NjZjLTkxOGYtMTFmMS05YjcxLTc0ZTZlMjA5ZDJhMCIsInVzZXJuYW1lIjoiamhvbiIsImlhdCI6MTc4Njg2MzAxOSwiZXhwIjoxNzg2OTQ5NDE5fQ.hM9jztPXzVXZ0-Kv-mTQVuPpWnlE5SQn1NP5mHu9Fzc
+Content-Type: application/json
+
+{
+    "featureId": "d7382126-25e3-4fe8-9b14-f1aa03919601",
+    "title": "User Signup",
+    "description": "Allow users to create account in the application",
+    "priority": "High",
+    "acceptanceCriteria": [
+        "User can enter username",
+        "User can enter password",
+        "User can enter security question and answer"
+    ]
+}

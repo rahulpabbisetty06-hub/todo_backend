@@ -1,0 +1,6 @@
+POST http://localhost:3000/forgot-password/get-security-question
+Content-Type: application/json
+
+{
+     "username":"rahul pabbisetty"
+}
